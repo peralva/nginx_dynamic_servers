@@ -1,0 +1,19 @@
+{
+  "name": "nginx_dynamic_servers",
+  "version": "1.0.0",
+  "description": "Nginx Dynamic Servers",
+  "main": "dist/index",
+  "scripts": {
+    "test": "node dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peralva/nginx_dynamic_servers.git"
+  },
+  "author": "Bruno Peralva (brunoperalva@hotmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peralva/nginx_dynamic_servers/issues"
+  },
+  "homepage": "https://github.com/peralva/nginx_dynamic_servers#readme"
+}
