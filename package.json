@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/peralva/nginx_dynamic_servers#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
     "eslint": "^8.34.0",
     "typescript": "^4.9.5"
   }
