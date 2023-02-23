@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/peralva/nginx_dynamic_servers/issues"
   },
-  "homepage": "https://github.com/peralva/nginx_dynamic_servers#readme"
+  "homepage": "https://github.com/peralva/nginx_dynamic_servers#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
