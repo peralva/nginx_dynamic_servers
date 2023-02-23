@@ -4,7 +4,8 @@
   "description": "Nginx Dynamic Servers",
   "main": "dist/index",
   "scripts": {
-    "test": "node dist/index"
+    "test": "node dist/index",
+    "compile": "npx tsc -w"
   },
   "repository": {
     "type": "git",
