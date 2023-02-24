@@ -13,7 +13,7 @@ export default (reference: Reference): void => {
             fileContent += (''
                 + `upstream ${valueStatus.upstreamName} {`
                 + '\n' + '    least_conn;'
-                + '\n'
+                + (valueStatus.servers.length > 1 ? '\n' : '')
             );
     
             let allServerAreDown = true;
