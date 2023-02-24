@@ -1,5 +1,5 @@
 module.exports = {
-    verificationTime: 1000,
+    verification_time: 1000,
     nginx_file: {
         conf: 'C:\\nginx\\conf\\upstreams.conf',
         bin: 'C:\\nginx\\nginx.exe',

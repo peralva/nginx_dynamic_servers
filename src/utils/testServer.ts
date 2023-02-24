@@ -98,7 +98,7 @@ const callTestServer = (reference: Reference, upstreamName: string, serverName: 
                 () => {
                     testServer(reference, upstreamName, serverName);
                 },
-                reference.config.verificationTime || 1000,
+                reference.config.verification_time || 1000,
             );
         }
     }
