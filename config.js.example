@@ -1,4 +1,5 @@
 module.exports = {
+    verificationTime: 1000,
     nginx_file: {
         conf: 'C:\\nginx\\conf\\upstreams.conf',
         bin: 'C:\\nginx\\nginx.exe',
@@ -16,7 +17,7 @@ module.exports = {
                 method: 'POST',
                 path: '/path_example',
                 body: {
-                    key_examplo: 'Value Example'
+                    key_examplo: 'Value Example',
                 },
             },
         },

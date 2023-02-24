@@ -1,4 +1,5 @@
 interface Interface {
+    verificationTime?: number,
     nginx_file: {
         conf: string,
         bin?: string,
