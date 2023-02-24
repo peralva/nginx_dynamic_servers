@@ -1,0 +1,24 @@
+module.exports = {
+    nginx_file: {
+        conf: 'C:\\nginx\\conf\\upstreams.conf',
+        bin: 'C:\\nginx\\nginx.exe',
+    },
+    upstreams: [
+        {
+            name: 'upstream_example',
+            protocol: 'https',
+            limit_time: 100,
+            servers: [
+                'server_example1:444',
+                'server_example2:445',
+            ],
+            test: {
+                method: 'POST',
+                path: '/path_example',
+                body: {
+                    key_examplo: 'Value Example'
+                },
+            },
+        },
+    ],
+};
